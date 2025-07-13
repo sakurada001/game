@@ -8,11 +8,11 @@
       <style>
     .fuwafuwa {
       animation: fuwafuwa 3s ease-in-out infinite alternate;
-      background: url(./cc.png) no-repeat center center / 60px auto;
+      background: url(./SUNSHIN.png) no-repeat center center / 60px auto;
       display: inline-block;
       transition: 1.5s ease-in-out;
-      width: 36px;
-      height: 100px;
+      width: 25px;
+      height: 120px;
       margin-top: 15px;
     }
 
@@ -30,13 +30,13 @@
   </style>
 </head>
 <body>
-     <h3>(普通の)レモンの世界へようこそ！</h3>
+     
     <h4>ルール説明:このゲームは、４桁の数字を当てるゲームです！(2941,0123など)</h4>
     <h4>おしい：使ってる数字も位置もあってる、すこし：使ってる数字はあってるけど答えが違う</h4>
     <h4>例：答えが「1234」の時入力が「1324」場合は、おしい2、すこし2になります！</h4>
     <h4>ヒントを使いたいときは、ローマ字を入力してね</h4>
-    <h4>行動するごとにレモンを消費します。()の個数レモンを消費するよ！初期レモン７０個！</h5>
-    <h6>(条件を満たすとがレモン増えるかも。。？)</h6>
+    <h4>行動するごとにドリンクを消費します。()の個数ドリンクを消費するよ！初期ドリンク７０個！</h5>
+    <h6>(条件を満たすとがドリンク増えるかも。。？)</h6>
     <h4>注意点：同じ数字は使わない、１０００の位に０になっている可能性がある、半角入力推奨！</h4>
    
     <form action=""method="post">
