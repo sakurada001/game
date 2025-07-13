@@ -1,0 +1,57 @@
+.cc-fall div {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 400px;
+  background: url(cc1.png) no-repeat;
+  opacity: 0;
+  transform-origin: 0 0;
+  animation-name: ccfall;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.cc-1 {
+  left: 520px;
+  animation-duration: 4.5s;
+  animation-delay: 1.4s;
+}
+.cc-2 {
+  left: 180px;
+  animation-duration: 4.7s;
+  animation-delay: 0.2s;
+}
+.cc-3 {
+  left: 320px;
+  animation-duration: 4.5s;
+  animation-delay: 3.4s;
+}
+.cc-4 {
+  left: 680px;
+  animation-duration: 4.7s;
+  animation-delay: 2.2s;
+}
+.cc-5 {
+  left: 1200px;
+  animation-duration: 5.5s;
+  animation-delay: 7.4s;
+}
+.cc-6 {
+  left: 980px;
+  animation-duration: 5.7s;
+  animation-delay: 2.2s;
+}
+@keyframes ccfall {
+  0% {
+    transform: translateY(0);
+    opacity: 0.3;
+  }
+  60% {
+    transform: translateY(600px);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(1000px);
+    opacity: 1;
+  }
+}
